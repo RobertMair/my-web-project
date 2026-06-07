@@ -5,86 +5,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>National Library of Australia</title>
-
     <link rel="stylesheet" href="./assets/css/normalize.css" />
-
     <link rel="stylesheet" href="./assets/css/styles.css" />
-
     <link rel="stylesheet" href="https://use.typekit.net/wsc0yjv.css"> <!-- Bodoni URW font from Adobe Fonts -->
-
     <link rel="stylesheet" href="https://use.typekit.net/wsc0yjv.css"> <!-- Futura PT font from Adobe Fonts -->
-
     <script src="https://kit.fontawesome.com/6329c14075.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-
-    <div class="container">
-
-        <!-- <div class="main-menu">
-            <div class="links">
-                <div class="home-link" id="homeLinkText">HOME</div>
-                <div class="home-about">
-                    <div class="about">
-                        <div class="huge-tab">
-                            <div class="name">
-                                <div class="tab-name">ABOUT</div>
-                                <img class="polygon-icon" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="architecture-link" id="architectureLinkText">ARCHITECTURE</div>
-                <div class="tab-name">EVENTS</div>
-                <div class="tab-name">IN THE MEDIA</div>
-                <div class="tab-name">GROWING UP MODERN</div>
-                <div class="tab-name">PARTNERS</div>
-                <div class="tab-name">LINKS</div>
-                <div class="tab-name">CONTACT US</div>
-                <div class="tab-name">LOGIN</div>
-            </div>
-        </div> -->
-
-
-        <div class="building-page-hero-section grey-background-opacity-25">
-
-            <div class="building-page-hero-section-left">
-                <img class="building-page-hero-img" alt="National Library of Australia Corner View"
-                    src="./assets/images/AdobeStock_758333892_Preview.jpeg">
-            </div>
-
-            <div class="building-page-hero-section-right building-page-hero-card">
-                <h3 class="red">NATIONAL LIBRARY OF AUSTRALIA</h3>
-                <span>
-
-                    <i class="fa-solid fa-location-dot"></i>
-                    <a class="body-links-regular"
-                        href="https://www.google.com/maps/place/National+Library+of+Australia/@-35.281234,149.126439,17z/data=!3m1!4b1!4m5!3m4!1s0x6b164a5a8b8c0c0d:0x6b164a5a8b8c0c0d!8m2!3d-35.281234!4d149.126439"
-                        target="_blank">Parkes Pl W, Canberra ACT 2600</a>
-                </span>
-                <span>
-                    <i class="fa-solid fa-link"></i>
-                    <a class="body-links-regular" href="https://www.library.gov.au"
-                        target="_blank">library.gov.au</a></span>
-                <h4>Parkes Place building</h4>
-                The National Library of Australia building located at Parkes Place, Canberra was
-                opened on 15 August 1968 by Prime Minister John Gorton.
-                <br><br>
-                When the building opened it was the first time since the Library moved to Canberra in
-                1927 that all of the collections and staff were located in one building.</span>
-
+    <header>
+        <div class="top-nav" id="myTopnav">
+            <div class="top-nav-container">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#" class="active">ARCHITECTURE</a>
+                <a href="#">EVENTS</a>
+                <a href="#">IN THE MEDIA</a>
+                <a href="#">GROWING UP MODERN</a>
+                <a href="#">PARTNERS</a>
+                <a href="#">LINKS</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">LOGIN</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
             </div>
         </div>
-
-
-        <div class="building-history-container">
-            <div class="column-one">
+    </header>
+    <main class="container">
+        <section class="building-page-hero-section grey-background-opacity-25">
+            <div class="building-page-hero-section-left">
+                <img class="building-page-hero-img" alt="National Library of Australia Corner View"
+                    src="./assets/images/national-library-corner-view.jpeg">
+            </div>
+            <div class="building-page-hero-section-right building-page-hero-card">
+                <h3 class="red">NATIONAL LIBRARY OF AUSTRALIA</h3>
+                <a class="body-links-regular"
+                    href="https://www.google.com/maps/place/National+Library+of+Australia/@-35.281234,149.126439,17z/data=!3m1!4b1!4m5!3m4!1s0x6b164a5a8b8c0c0d:0x6b164a5a8b8c0c0d!8m2!3d-35.281234!4d149.126439"
+                    target="_blank"><i class="fa-solid fa-location-dot"></i>Parkes Pl W, Canberra ACT 2600</a>
+                <a class="body-links-regular" href="https://www.library.gov.au" target="_blank"><i
+                        class="fa-solid fa-link"></i>library.gov.au</a>
+                <h5>Parks Place building</h5>
+                <p class="body-text-reg-med">The National Library of Australia building located at Parkes Place,
+                    Canberra was opened on 15 August 1968 by Prime Minister John Gorton.
+                    <br><br>
+                    When the building opened it was the first time since the Library moved to Canberra in
+                    1927 that all of the collections and staff were located in one building.
+                </p>
+            </div>
+        </section>
+        <section class="three-column-container">
+            <div class="three-column-container-one">
                 <h3 class="blue">BUILDING HISTORY</h3>
             </div>
-            <div class="column-two">Walter Bunning (1912-1977) of architectural firm Bunning and
-                Madden
+            <div class="three-column-container-two">Walter Bunning (1912-1977) of architectural firm Bunning and Madden
                 was the chief architect in association with T.E. O'Mahony.<br><br>The building style is
                 'Contemporary Classical' ('Late-Twentieth Century Stripped Classical'), influenced by the work of
                 American architect Edward Stone and the Parthenon in Greece.<br><br>The building was planned to have
@@ -95,7 +67,7 @@
                 used. The exterior is light-coloured marble cladding, with granite, bronze, slate and copper. The
                 podium walls are grey trachyte and the roof is copper.
             </div>
-            <div class="column-three">The interior of the building was also carefully considered.
+            <div class="three-column-container-three">The interior of the building was also carefully considered.
                 Fine Australian woods were used in some of the reading rooms. The Nan Kivell room, previously the
                 Manuscripts Reading Room, is panelled with red cedar.<br><br>The furniture was designed by Fred Ward
                 and Arthur Robinson. Examples of the heritage furniture still feature in the Library.<br><br>After
@@ -103,161 +75,109 @@
                 in furnishings and equipment.<br><br>In the 1980s the lower ground floors were expanded to add a
                 large storage area under the podium.<br><br>Today the Parkes building is 47,000 metres squared over
                 eight levels and is supplemented by two storage repositories in Hume.</div>
-        </div>
+        </section>
+        <section class="one-two-column-container blue-background-opacity-50">
+            <div class="one-two-column-container-one">
+                <h6 class="white">NATIONAL LIBRARY OF AUSTRALIA SEEN FROM ACROSS LAKE BURLEY GRIFFIN DURING A BEAUTIFUL
+                    CANBERRA SUNSET</h6>
+            </div>
+            <div class="one-two-column-container-two">
+                <img class="column-container-img"
+                    alt="National Library of Australia seen from across Lake Burley Griffin during a beautiful Canberra sunset"
+                    src="./assets/images/national-library-across-lake-burley.jpeg">
+            </div>
+        </section>
+        <section class="two-one-column-container">
+            <div class="two-one-column-container-one">
+                <img class="column-container-img"
+                    alt="National Library of Australia seen from across Lake Burley Griffin during a beautiful Canberra sunset"
+                    src="./assets/images/national-library-front-view.jpeg">
+            </div>
+            <div class="two-one-column-container-two want-to-know-more-card">
+                <h4 class="grey">WANT TO KNOW MORE?</h4>
+                <span>
+                    <a class="body-links-regular" href="https://nla.gov.au/nla.obj-147040235/view" target="_blank"><i
+                            class="fa-solid fa-link"></i>National Library under construction,
+                        1966</a>
+                </span>
+                <span>
+                    <a class="body-links-regular" href="https://catalogue.nla.gov.au/catalog/2152606" target="_blank"><i
+                            class="fa-solid fa-link"></i>Interview with Walter Bunning, 1971</a>
+                </span>
+                <span>
+                    <a class="body-links-regular"
+                        href="https://webarchive.nla.gov.au/awa/20120205171953/http://pandora.nla.gov.au/pan/131760/20120120-0944/www.nla.gov.au/pub/nlanews/2008/aug08/aug08news.html"
+                        target="_blank">
+                        <i class="fa-solid fa-link"></i>40th anniversary of library opening, 2008</a>
+                </span>
+            </div>
+        </section>
+    </main>
 
+    <footer class="container">
+        <div class="footer-container red-background white">
+            <div class="footer-container-left">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">ARCHITECTURE</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">IN THE MEDIA</a></li>
+                    <li><a href="#">GROWING UP MODERN</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="footer-container-right">
+                <div class="logo-section">
+                    <div class="canberra-modern-logo" id="canberraModernLogo">
+                        <div class="modern-text">MODERN</div>
+                        <div class="canberra-text">CANBERRA</div>
+                        <img class="logo-container-icon" alt="">
 
-        <div class="blue-background-opacity-50">
-            <!-- <img class="canberra-map-img2" alt=""> -->
-            <h5 class="white">NATIONAL LIBRARY OF AUSTRALIA SEEN FROM ACROSS LAKE BURLEY GRIFFIN DURING A BEAUTIFUL
-                CANBERRA SUNSET</h5>
-        </div>
-
-        <div class="body-text3">
-            <img class="canberra-map-img3" alt="">
-
-            <div class="know-more-container">
-                <b class="know-more-title">WANT TO KNOW MORE?</b>
-                <div class="website-container" id="knowMoreLinkContainer">
-                    <img class="address-icon" alt="">
-
-                    <div class="know-more-link">National Library under construction, 1966</div>
+                    </div>
+                    <b class="credits-text">This website was produced by students in the Faculty of Arts & Design,
+                        University of Canberra, 2026.</b>
                 </div>
-                <div class="website-container" id="interviewLinkContainer">
-                    <img class="address-icon" alt="">
-
-                    <div class="know-more-link">Interview with Walter Bunning, 1971</div>
-                </div>
-                <div class="website-container" id="anniversaryLinkContainer">
-                    <img class="address-icon" alt="">
-
-                    <div class="know-more-link">40th anniversary of library opening, 2008</div>
+                <div class="subscribe-section">
+                    <div class="email-input">
+                        <div class="button">Your email address</div>
+                    </div>
+                    <div class="subscribe-button">
+                        <div class="button">Sign Up</div>
+                    </div>
+                    <b class="subscribe-text">We’ll never share your details anywhere else.<br>This site is protected by
+                        reCAPTCHA and theGoogle
+                        <a class="privacy-policy" href="https://policies.google.com/privacy" target="_blank">
+                            <span class="privacy-policy2">Privacy Policy</span>
+                        </a>and
+                        <a class="privacy-policy" href="https://policies.google.com/terms" target="_blank">
+                            <span class="privacy-policy2">Terms of Service</span>
+                        </a>apply.
+                    </b>
                 </div>
             </div>
-        </div>
-        <div class="footer">
             <div class="bottom-menu">
                 <b class="privacy-link">Privacy</b>
                 <b class="conduct-link">Conduct</b>
                 <b class="legal-link">Legal</b>
             </div>
-            <div class="divider-line">
-            </div>
-            <div class="side-menu">
-                <b class="side-login-link">LOGIN</b>
-                <b class="side-contact-us">CONTACT US</b>
-                <b class="side-links-link">LINKS</b>
-                <b class="side-partners-link">PARTNERS</b>
-                <b class="side-growing-up">GROWING UP MODERN</b>
-                <b class="side-media-link">IN THE MEDIA</b>
-                <b class="side-events-link">EVENTS</b>
-                <b class="side-architecture-link" id="sideArchitectureLink">ARCHITECTURE</b>
-                <b class="side-about-link">ABOUT</b>
-                <b class="side-home-link" id="sideHomeLink">HOME</b>
-            </div>
-            <div class="logo-section">
-                <div class="canberra-modern-logo" id="canberraModernLogo">
-                    <div class="modern-text">MODERN</div>
-                    <div class="canberra-text">CANBERRA</div>
-                    <img class="logo-container-icon" alt="">
-
-                </div>
-                <b class="credits-text">This website was produced by students in the Faculty of Arts & Design,
-                    University of Canberra, 2026.</b>
-            </div>
-            <div class="subscribe-section">
-                <div class="email-input">
-                    <div class="button">Your email address</div>
-                </div>
-                <div class="subscribe-button">
-                    <div class="button">Sign Up</div>
-                </div>
-                <b class="subscribe-text">We’ll never share your details anywhere else.<br>This site is protected by
-                    reCAPTCHA and theGoogle
-                    <a class="privacy-policy" href="https://policies.google.com/privacy" target="_blank">
-                        <span class="privacy-policy2">Privacy Policy</span>
-                    </a> and
-                    <a class="privacy-policy" href="https://policies.google.com/terms" target="_blank">
-                        <span class="privacy-policy2">Terms of Service</span>
-                    </a> apply.
-                </b>
-            </div>
         </div>
-
-    </div>
-
-
-
+    </footer>
 
     <script>
-        var addressText = document.getElementById("addressText");
-        if (addressText) {
-            addressText.addEventListener("click", function () {
-                window.open("https://maps.app.goo.gl/2NURJ4SJYg2McbGP6");
-            });
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "top-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "top-nav";
+            }
         }
+    </script>
 
-        var websiteContainer = document.getElementById("websiteContainer");
-        if (websiteContainer) {
-            websiteContainer.addEventListener("click", function () {
-                window.open("https://www.library.gov.au");
-            });
-        }
-
-        var knowMoreLinkContainer = document.getElementById("knowMoreLinkContainer");
-        if (knowMoreLinkContainer) {
-            knowMoreLinkContainer.addEventListener("click", function () {
-                window.open("https://nla.gov.au/nla.obj-147040235/view");
-            });
-        }
-
-        var interviewLinkContainer = document.getElementById("interviewLinkContainer");
-        if (interviewLinkContainer) {
-            interviewLinkContainer.addEventListener("click", function () {
-                window.open("https://catalogue.nla.gov.au/catalog/2152606");
-            });
-        }
-
-        var anniversaryLinkContainer = document.getElementById("anniversaryLinkContainer");
-        if (anniversaryLinkContainer) {
-            anniversaryLinkContainer.addEventListener("click", function () {
-                window.open("https://webarchive.nla.gov.au/awa/20120205171953/http://pandora.nla.gov.au/pan/131760/20120120-0944/www.nla.gov.au/pub/nlanews/2008/aug08/aug08news.html");
-            });
-        }
-
-        var sideArchitectureLink = document.getElementById("sideArchitectureLink");
-        if (sideArchitectureLink) {
-            sideArchitectureLink.addEventListener("click", function (e) {
-                // Add your code here
-            });
-        }
-
-        var sideHomeLink = document.getElementById("sideHomeLink");
-        if (sideHomeLink) {
-            sideHomeLink.addEventListener("click", function (e) {
-                // Add your code here
-            });
-        }
-
-        var canberraModernLogo = document.getElementById("canberraModernLogo");
-        if (canberraModernLogo) {
-            canberraModernLogo.addEventListener("click", function (e) {
-                // Add your code here
-            });
-        }
-
-        var homeLinkText = document.getElementById("homeLinkText");
-        if (homeLinkText) {
-            homeLinkText.addEventListener("click", function (e) {
-                // Add your code here
-            });
-        }
-
-        var architectureLinkText = document.getElementById("architectureLinkText");
-        if (architectureLinkText) {
-            architectureLinkText.addEventListener("click", function (e) {
-                // Add your code here
-            });
-        }</script>
 </body>
 
 </html>
