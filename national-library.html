@@ -13,8 +13,15 @@
 </head>
 
 <body>
+
     <header>
         <div class="top-nav" id="myTopnav">
+            <div class="top-sub-nav-container">
+                <a href="#">PARTNERS</a>
+                <a href="#">LINKS</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">LOGIN</a>
+            </div>
             <div class="top-nav-container">
                 <a href="#">HOME</a>
                 <a href="#">ABOUT</a>
@@ -22,15 +29,36 @@
                 <a href="#">EVENTS</a>
                 <a href="#">IN THE MEDIA</a>
                 <a href="#">GROWING UP MODERN</a>
-                <a href="#">PARTNERS</a>
-                <a href="#">LINKS</a>
-                <a href="#">CONTACT US</a>
-                <a href="#">LOGIN</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
             </div>
+            <button class="top-nav-button" id="menuOpen" onclick="mobileMenu()"><i
+                    class="fa-solid fa-solid-nav fa-bars"></i></button>
         </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <nav>
+                <button class="top-nav-button white" id="menuClose" onclick="mobileMenu()"><i
+                        class="fa-solid fa-solid-nav fa-x"></i></button>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#" class="active">ARCHITECTURE</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">IN THE MEDIA</a></li>
+                    <li><a href="#">GROWING UP MODERN</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+                <a href="#"><img class="mobile-menu-logo" alt="Canberra Modern Logo"
+                        src="./assets/images/canberra modern logo - v1.png"></a>
+            </nav>
+        </div>
+
     </header>
     <main class="container">
+
+        <button onclick="topFunction()" id="to-top-button" title="Go to top">Top</button>
+
         <section class="building-page-hero-section grey-background-opacity-25">
             <div class="building-page-hero-section-left">
                 <img class="building-page-hero-img" alt="National Library of Australia Corner View"
@@ -137,7 +165,7 @@
                     <button class="footer-form-button" type="button" onclick="alert('Thank you for signing up!')">Sign
                         Up</button>
                 </form>
-                <br>We’ll never share your details anywhere else.
+                We’ll never share your details anywhere else.
                 <br>This site is protected by reCAPTCHA and the
                 <br>Google
                 <a href="https://policies.google.com/privacy" target="_blank">
@@ -147,14 +175,10 @@
                     <span class="privacy-policy2">Terms of Service</span>
                 </a>apply.
             </div>
-            <div class="footer-container-mid-right">
-                <!-- RESERVED FOR FUTURE USE -->
-            </div>
             <div class="footer-container-bottom-right">
                 <div>
                     <a href="#"><img class="footer-container-logo" alt="Canberra Modern Logo"
                             src="./assets/images/canberra modern logo - v1.png"></a>
-                    <br>
                     <br>This website was produced by students
                     <br>in the Faculty of Arts & Design,
                     <br>University of Canberra, 2026.
@@ -169,14 +193,50 @@
     </footer>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "top-nav") {
-                x.className += " responsive";
+
+        function mobileMenu() {
+            var menuToggle = document.getElementById('menuOpen');
+            var mobileMenu = document.getElementById('mobileMenu');
+            var bodyElement = document.body;
+
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.add('active');
+            });
+
+            mobileMenu.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        }
+
+        var toTopButton = document.getElementById("to-top-button");
+        // When the user scrolls down 200px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && window.innerWidth < 1280) {
+                toTopButton.style.display = "block";
             } else {
-                x.className = "top-nav";
+                toTopButton.style.display = "none";
             }
         }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        window.addEventListener('resize', () => {
+            const currentWidth = window.innerWidth; // Gets viewport width
+            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && currentWidth < 1280) {
+                toTopButton.style.display = "block";
+            } else {
+                toTopButton.style.display = "none";
+            }
+        })
+
     </script>
 
 </body>

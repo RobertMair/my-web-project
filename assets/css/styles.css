@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Global Styles: Colours */
 
 :root {
@@ -84,7 +88,7 @@
   --font-body-medium: 20px;
   --font-body-large: 32px;
   --font-sm: 18px;
-  --font-med: 24px;
+  --font-med: 18px; /* Done */
   --font-h6: 18px;
   --font-h5: 28px; /* Done */
   --font-h4: 32px; /* Done */
@@ -100,7 +104,7 @@
     --font-body-medium: 20px;
     --font-body-large: 32px;
     --font-sm: 18px;
-    --font-med: 24px;
+    --font-med: 22px; /* Done */
     --font-h6: 20px;
     --font-h5: 32px;
     --font-h4: 36px;
@@ -223,14 +227,19 @@ h6 {
   border-style: solid;
 }
 
-.top-nav-container {
+.top-sub-nav-container {
+  min-width: 402px;
+  max-width: 1440px;
+  margin: 0px auto 0px auto;
+  width: 100%;
+  height: auto;
+  border: 1px solid purple;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 10px;
 }
 
-/* Style the links inside the navigation bar */
-.top-nav a {
+.top-sub-nav-container a {
   float: left;
   display: block;
   color: rgba(var(--black), 1);
@@ -238,6 +247,24 @@ h6 {
   padding: 20px 8px 0px 8px;
   text-decoration: none;
   font-size: 14px;
+  font-family: "futura-pt", "Trebuchet MS", sans-serif;
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.top-nav-container a {
+  float: left;
+  display: block;
+  color: rgba(var(--black), 1);
+  text-align: center;
+  padding: 20px 8px 0px 8px;
+  text-decoration: none;
+  font-size: 18px;
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
 }
 
@@ -253,36 +280,110 @@ h6 {
 }
 
 /* Hide the link that should open and close the top-nav on small screens */
-.top-nav .icon {
+.top-nav-button {
   display: none;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.fa-solid-nav {
+  font-size: 50px;
+}
+
+/* Base styling for the overlay */
+.mobile-menu {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(var(--red), 1);
+  z-index: 999; /* Keeps menu on top of all other content */
+  overflow: auto;
+  overscroll-behavior: contain;
+  /* Hidden state: Pushed completely off-screen to the left */
+  transform: translateX(-100%);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Active state: Slides into view when button is clicked */
+.mobile-menu.active {
+  transform: translateX(0);
+  overscroll-behavior: contain;
+}
+
+/* Simple styling for layout links */
+.mobile-menu ul {
+  list-style: none;
+  padding: 80px 0px 0px 0px;
+}
+
+.mobile-menu ul li {
+  margin: 19px 0px 0px 16px;
+}
+
+.mobile-menu ul li a {
+  font-size: var(--font-body-large);
+  font-family: "futura-pt", "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgba(var(--white));
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.mobile-menu-logo {
+  width: 335px;
+  margin: 35px 0px 0px 16px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+  .top-nav-container {
+    display: flex;
+    justify-content: left;
+    padding-left: 16px;
+    gap: 48px;
+  }
+
   .top-nav a {
     display: none;
   }
-  .top-nav a.icon {
-    float: left;
-    display: block;
+
+  .top-nav-button {
+    display: inline-block;
   }
 }
 
-/* The "responsive" class is added to the top-nav with JavaScript when the user clicks on the icon. This class makes the top-nav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 700px) {
-  .top-nav.responsive {
-    position: relative;
-  }
-  .top-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .top-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+/* Scroll to top floating button */
+
+#to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 16px;
+  z-index: 99;
+  font-size: var(--font-body-small);
+  font-family: "futura-pt", "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  border: solid 3px rgba(var(--white));
+  background-color: rgba(var(--red));
+  color: rgba(var(--white));
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#to-top-button:hover {
+  background-color: rgba(var(--white));
+  color: rgba(var(--red));
 }
 
 /* Responsive Container */
@@ -293,10 +394,11 @@ h6 {
   margin: 0px auto 0px auto;
   width: 100%;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid purple;
 }
 
 .building-page-hero-section {
+  padding-top: 100px;
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   align-self: stretch;
@@ -394,15 +496,14 @@ h6 {
 
 .footer-container {
   display: grid;
-  padding: 30px 16px;
+  padding: 50px 16px;
   row-gap: 10px;
   column-gap: 51px;
   align-self: stretch;
   grid-template-areas:
-    "footer-container-left footer-container-top-right"
-    "footer-container-left footer-container-mid-right"
-    "footer-container-left footer-container-bottom-right"
-    "footer-container-bottom footer-container-bottom";
+    "footer-container-top-right"
+    "footer-container-bottom-right"
+    "footer-container-bottom";
   font-size: var(--font-body-small);
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
   font-weight: 800;
@@ -411,24 +512,24 @@ h6 {
 .footer-container-left {
   grid-area: footer-container-left;
   border: 1px solid black;
+  display: none;
 }
 .footer-container-top-right {
   grid-area: footer-container-top-right;
-  text-align: right;
+  text-align: center;
   border: 1px solid black;
-}
-.footer-container-mid-right {
-  grid-area: footer-container-mid-right;
-  text-align: right;
-  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 55px;
 }
 .footer-container-bottom-right {
   grid-area: footer-container-bottom-right;
-  text-align: right;
+  text-align: center;
   border: 1px solid black;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; 
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 28px;
 }
 .footer-container-bottom {
   grid-area: footer-container-bottom;
@@ -457,13 +558,6 @@ h6 {
   padding-bottom: 28px;
 }
 
-.footer-links-regular {
-  font-size: var(--font-med);
-  font-family: "futura-pt", "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .footer-container-bottom a {
   font-size: var(--font-body-small);
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
@@ -474,7 +568,7 @@ h6 {
 .footer-form-input {
   width: 339px;
   padding: 9px 20px;
-  margin-right: 15px;
+  margin: 0px 0px 40px 0px;
   font-size: var(--font-body-small);
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
   font-weight: 800;
@@ -489,6 +583,7 @@ h6 {
 
 .footer-form-button {
   padding: 9px 20px;
+  margin: 0px 0px 40px 15px;
   font-size: var(--font-body-small);
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
   font-weight: 800;
@@ -500,9 +595,14 @@ h6 {
   cursor: pointer;
 }
 
+.footer-form-button:hover {
+  background-color: rgba(var(--white));
+  color: rgba(var(--red));
+}
+
 .footer-container-logo {
   width: 335px;
-  
+  margin-bottom: 35px;
 }
 
 @media (min-width: 768px) {
@@ -542,6 +642,26 @@ h6 {
   }
   .two-one-column-container-two {
     grid-area: 1 / span 1;
+  }
+
+  .footer-container {
+    grid-template-areas:
+      "footer-container-left footer-container-top-right"
+      "footer-container-left footer-container-bottom-right"
+      "footer-container-bottom footer-container-bottom";
+  }
+  .footer-container-left {
+    display: block;
+  }
+  .footer-container-top-right {
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .footer-container-bottom-right {
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }
 
