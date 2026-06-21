@@ -47,6 +47,9 @@ html {
 .yellow-background {
   background-color: rgba(var(--yellow));
 }
+.yellow-background-opacity-50 {
+  background-color: rgba(var(--yellow), 0.5);
+}
 .red-background {
   background-color: rgba(var(--red));
 }
@@ -55,6 +58,9 @@ html {
 }
 .green-background {
   background-color: rgba(var(--green));
+}
+.green-background-opacity-50 {
+  background-color: rgba(var(--green), 0.5);
 }
 .blue-background {
   background-color: rgba(var(--blue));
@@ -346,7 +352,8 @@ h6 {
   width: 335px;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
+   Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 768px) {
   .top-nav-container {
     display: flex;
@@ -389,7 +396,9 @@ h6 {
   color: rgba(var(--red));
 }
 
+/* ========== */
 /* GLOBAL CSS */
+/* ========== */
 
 .container {
   margin: 0px auto 0px auto;
@@ -400,7 +409,9 @@ h6 {
   height: auto;
 }
 
+/* ============= */
 /* HOME PAGE CSS */
+/* ============= */
 
 .hero-section-mobile {
   margin-top: 100px;
@@ -447,6 +458,7 @@ h6 {
   padding: 0px 16px 0px 16px;
 }
 
+/* Home page section image left */
 .home-page-image-left {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
@@ -475,9 +487,31 @@ h6 {
   padding: 16px;
 }
 
+/* Home page section image right */
+.home-page-image-right {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  border: 1px solid blue;
+}
+
+.home-page-image-right-section-left {
+  grid-area: 2 / span 12;
+  border: 1px solid black;
+  padding: 16px;
+}
+
+.home-page-image-right-section-right {
+  grid-area: 1 / span 12;
+  border: 1px solid black;
+  padding: 16px;
+  max-height: 650px;
+  overflow: hidden;
+}
+
+/* Home page image and card */
 .home-page-image {
   width: 100%;
-  height: 100%;
+  height: 330px;
   object-fit: cover;
 }
 
@@ -503,8 +537,9 @@ h6 {
 }
 
 .home-page-button:hover {
+  border: 3px solid rgba(var(--white));
   background-color: rgba(var(--white));
-  color: rgba(var(--red));
+  color: rgba(var(--black));
 }
 
 /* BUILDING SUB PAGE CSS */
@@ -732,20 +767,37 @@ h6 {
   .home-page-image-left-section-left {
     grid-area: 1 / span 7;
     padding: 0px 0px 0px 16px;
+    height: 500px;
   }
   .home-page-image-left-section-left-no-pad {
     grid-area: 1 / span 7;
     padding: 0px 0px 0px 0px;
+     height: 500px;
   }
   .home-page-image-left-section-right {
     grid-area: 1 / span 5;
   }
+
+  .home-page-image-right-section-left {
+    grid-area: 1 / span 7;
+  }
+  .home-page-image-right-section-right {
+    grid-area: 1 / span 5;
+    padding: 0px 16px 0px 0px;
+    height: 500px;
+  }
+
+  .home-page-image {
+    height: 500px;
+  }
+
   .building-page-hero-section-left {
     grid-area: 1 / span 7;
   }
   .building-page-hero-section-right {
     grid-area: 1 / span 5;
   }
+
   .three-column-container-one {
     grid-area: 1 / span 2;
   }
@@ -811,6 +863,18 @@ h6 {
 
   .home-page-image-left-section-right {
     padding-right: 122px;
+  }
+
+  .home-page-image-right-section-left {
+    padding-left: 122px;
+  }
+
+  .home-page-image-right-section-right {
+    padding-right: 122px;
+  }
+
+  .home-page-image {
+    height: 700px;
   }
 
   .building-page-hero-card {
