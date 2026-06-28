@@ -80,6 +80,9 @@ html {
 .warm-olive-background {
   background-color: rgba(var(--warm-olive));
 }
+.warm-olive-background-opacity-50 {
+  background-color: rgba(var(--warm-olive), 0.5);
+}
 .white-background {
   background-color: rgba(var(--white));
 }
@@ -347,6 +350,10 @@ h6 {
   text-decoration: none;
 }
 
+.mobile-menu a.active {
+  text-decoration: underline;
+}
+
 .mobile-menu-logo {
   margin: 35px 0px 0px 16px;
   width: 335px;
@@ -603,7 +610,6 @@ h6 {
 
 .one-two-column-container {
   display: grid;
-  column-gap: 51px;
   row-gap: 10px;
   align-self: stretch;
   padding: 30px 16px;
@@ -611,15 +617,16 @@ h6 {
 .one-two-column-container-one {
   grid-area: 2 / span 1;
   border: 1px solid black;
+  overflow: hidden;
 }
 .one-two-column-container-two {
   grid-area: 1 / span 1;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 .two-one-column-container {
   display: grid;
-  column-gap: 51px;
   row-gap: 10px;
   align-self: stretch;
   padding: 30px 16px;
@@ -627,16 +634,31 @@ h6 {
 .two-one-column-container-one {
   grid-area: 1 / span 2;
   border: 1px solid black;
+  overflow: hidden;
 }
 .two-one-column-container-two {
   grid-area: 2 / span 1;
-  border: 1px solid black;
+  border: 1px solid red;
+  overflow: hidden;
 }
 
 .column-container-img {
   display: block;
   flex-shrink: 0;
   max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  filter: opacity(50%);
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -772,7 +794,7 @@ h6 {
   .home-page-image-left-section-left-no-pad {
     grid-area: 1 / span 7;
     padding: 0px 0px 0px 0px;
-     height: 500px;
+    height: 500px;
   }
   .home-page-image-left-section-right {
     grid-area: 1 / span 5;
@@ -809,6 +831,7 @@ h6 {
   }
   .one-two-column-container {
     grid-template-columns: 1fr 1fr;
+    column-gap: 51px;
   }
   .one-two-column-container-one {
     grid-area: 1 / span 1;
@@ -818,6 +841,7 @@ h6 {
   }
   .two-one-column-container {
     grid-template-columns: 1fr 1fr;
+    column-gap: 51px;
   }
   .two-one-column-container-one {
     grid-area: 1 / span 1;
