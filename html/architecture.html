@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/wsc0yjv.css"> <!-- Bodoni URW font from Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/wsc0yjv.css"> <!-- Futura PT font from Adobe Fonts -->
+    <script src="https://kit.fontawesome.com/6329c14075.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-nav" id="myTopnav">
+            <div class="top-sub-nav-container">
+                <a href="#">PARTNERS</a>
+                <a href="#">LINKS</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">LOGIN</a>
+            </div>
+            <div class="top-nav-container">
+                <a href="../index.html">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="#" class="active">ARCHITECTURE</a>
+                <a href="#">EVENTS</a>
+                <a href="#">IN THE MEDIA</a>
+                <a href="#">GROWING UP MODERN</a>
+            </div>
+            <button class="top-nav-button" id="menuOpen" onclick="mobileMenu()"><i
+                    class="fa-solid fa-solid-nav fa-bars"></i></button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <nav>
+                <button class="top-nav-button white" id="menuClose" onclick="mobileMenu()"><i
+                        class="fa-solid fa-solid-nav fa-x"></i></button>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="#" class="active">ARCHITECTURE</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">IN THE MEDIA</a></li>
+                    <li><a href="#">GROWING UP MODERN</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+                <a href="#"><img class="mobile-menu-logo" alt="Canberra Modern Logo"
+                        src="../assets/images/canberra-modern-logo-v1.png"></a>
+            </nav>
+        </div>
+
+    </header>
+    <main class="container">
+
+        <button onclick="topFunction()" id="to-top-button" title="Go to top">Top</button>
+
+        <section class="hero-section-mobile">
+            <h1 class="blue">MID-CENTURY</h1>
+            <h2 class="red">ARCHITECTURE</h2>
+            <img src="../assets/images/AdobeStock_1906166849_Preview.jpeg" alt="Architectural House Drawing">
+        </section>
+
+        <section class="hero-section-desktop">
+            <h1 class="blue">MID-CENTURY</h1>
+            <h2 class="red">ARCHITECTURE</h2>
+            <img alt="Architectural House Drawing" src="../assets/images/AdobeStock_1906166849_Preview.jpeg">
+        </section>
+
+        <section class="hero-body-text">
+            <p class="body-text-large">
+                <b class="blue">Canberra Modern's</b> <b class="red">top twenty</b> mid to late century modern
+                buildings.
+            </p>
+            <p class="body-text-medium">Twenty buildings might seem a lot, but in a city that grew up in the mid-century
+                period that showcases work from some of Australia’s most renowned architects, it is almost impossible to
+                narrow the list to just twenty!
+                <br><br>
+                While many on the list are obvious and iconic, we also wanted to include a few buildings that are lesser
+                known or are at risk of being lost altogether or visually lost in the midst of adjacent developments or
+                inappropriate renovation.
+            </p>
+        </section>
+
+        <section>
+            <div id="architecture-card-container" class="architecture-card-container">
+                <h5>CARD CONTAINER</h5>
+            </div>
+        </section>
+
+
+        <div id="card-container" class="card-grid"></div>
+
+    </main>
+
+    <footer class="container">
+        <div class="footer-container red-background white">
+            <div class="footer-container-left">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="#" class="active">ARCHITECTURE</a></li>
+                    <li><a href=" #">EVENTS</a></li>
+                    <li><a href="#">IN THE MEDIA</a></li>
+                    <li><a href="#">GROWING UP MODERN</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="footer-container-top-right">
+                <form>
+                    <input class="footer-form-input" type="email" id="email" name="email"
+                        placeholder="Your email address">
+                    <button class="footer-form-button" type="button" onclick="alert('Thank you for signing up!')">Sign
+                        Up</button>
+                </form>
+                We’ll never share your details anywhere else.
+                <br>This site is protected by reCAPTCHA and the
+                <br>Google
+                <a href="https://policies.google.com/privacy" target="_blank">
+                    <span class="privacy-policy2">Privacy Policy</span>
+                </a>and
+                <a href="https://policies.google.com/terms" target="_blank">
+                    <span class="privacy-policy2">Terms of Service</span>
+                </a>apply.
+            </div>
+            <div class="footer-container-bottom-right">
+                <div>
+                    <a href="#"><img class="footer-container-logo" alt="Canberra Modern Logo"
+                            src="../assets/images/canberra-modern-logo-v1.png"></a>
+                    <br>This website was produced by students
+                    <br>in the Faculty of Arts & Design,
+                    <br>University of Canberra, 2026.
+                </div>
+            </div>
+            <div class="footer-container-bottom">
+                <a href="#">Privacy</a>
+                <a href="#">Conduct</a>
+                <a href="#">Legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        function mobileMenu() {
+            var menuToggle = document.getElementById('menuOpen');
+            var mobileMenu = document.getElementById('mobileMenu');
+            var bodyElement = document.body;
+
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.add('active');
+            });
+
+            mobileMenu.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        }
+
+        var toTopButton = document.getElementById("to-top-button");
+        // When the user scrolls down 200px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && window.innerWidth < 1280) {
+                toTopButton.style.display = "block";
+            } else {
+                toTopButton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        window.addEventListener('resize', () => {
+            const currentWidth = window.innerWidth; // Gets viewport width
+            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && currentWidth < 1280) {
+                toTopButton.style.display = "block";
+            } else {
+                toTopButton.style.display = "none";
+            }
+        })
+
+    </script>
+
+    <script src="./app.js"></script>
+     <!-- <script src="../apptest.js"></script> -->
+    
+</body>
+
+</html>

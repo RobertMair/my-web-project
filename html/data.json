@@ -1,0 +1,68 @@
+[
+  {
+    "row": "1",
+    "backgroundColor": "yellow-background-opacity-25",
+    "card": [    
+        {
+        "img": "../assets/images/national-library-front-view.jpeg",
+        "risk": "",
+        "title": "National Library of Australia",
+        "address": "Parkes Place, Parkes",
+        "architect": "Bunning and Madden, 1968",
+        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "link": "./national-library.html"
+    },
+    {
+        "img": "../assets/images/university-house.webp",
+        "risk": " ",
+        "title": "University House",
+        "address": "Balmain Crescent, Acton",
+        "architect": "Brian Lewis, 1954",
+        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "link": "https://example.com"
+    },
+        {
+        "img": "../assets/images/churchill-house.webp",
+        "risk": "AT RISK",
+        "title": "Churchill House",
+        "address": "Northbourne Ave, Braddon",
+        "architect": "Robin Boyd, 1971",
+        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "link": "https://example.com"
+    }
+    ]
+    },
+    {
+    "row": "2",
+    "backgroundColor": "blue-background-opacity-25",
+    "card": [    
+        {
+        "img": "../assets/images/national-library-front-view.jpeg",
+        "risk": "",
+        "title": "National Library of Australia",
+        "address": "Parkes Place, Parkes",
+        "architect": "Bunning and Madden, 1968",
+        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "link": "./national-library.html"
+    },
+    {
+        "img": "../assets/images/university-house.webp",
+        "risk": " ",
+        "title": "University House",
+        "address": "Balmain Crescent, Acton",
+        "architect": "Brian Lewis, 1954",
+        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "link": "https://example.com"
+    },
+        {
+        "img": "../assets/images/churchill-house.webp",
+        "risk": "AT RISK",
+        "title": "Churchill House",
+        "address": "Northbourne Ave, Braddon",
+        "architect": "Robin Boyd, 1971",
+        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "link": "https://example.com"
+    }
+    ]
+    }
+]
