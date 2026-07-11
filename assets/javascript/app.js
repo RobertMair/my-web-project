@@ -27,8 +27,6 @@ function renderCards(data) {
       cardsHTML += `
       <div class="architecture-card-container ${categoryGroup.backgroundColor}">
       `;
-      // cardsHTML += `<small>Category: ${categoryGroup.row}</small>`;
-
       categoryGroup.card.forEach(card => {
           cardsHTML += `
           <div class="architecture-card">
