@@ -19,16 +19,16 @@
         "address": "Balmain Crescent, Acton",
         "architect": "Brian Lewis, 1954",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "../assets/images/churchill-house.webp",
+        "img": "./assets/images/churchill-house.webp",
         "risk": "AT RISK",
         "title": "Churchill House",
         "address": "Northbourne Ave, Braddon",
         "architect": "Robin Boyd, 1971",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -37,7 +37,7 @@
     "backgroundColor": "grey-background-opacity-25",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/urambi-village.webp",
         "risk": "",
         "title": "Urambi Village and Wybalena Grove",
         "address": "Urambi Village, Crozier Cct, Kambah and Wybalena Grove, Cook",
@@ -46,22 +46,22 @@
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
+        "img": "./assets/images/callam-offices.webp",
         "risk": "AT RISK",
         "title": "Callam Offices",
         "address": "Callam Street, Woden",
         "architect": "John Andrews, 1977-81",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "./assets/images/churchill-house.webp",
+        "img": "./assets/images/giralang-primary.webp",
         "risk": " ",
         "title": "Giralang Primary School",
         "address": "Atalumba Close, Giralang",
         "architect": "Enrico Taglietti, 1976",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -70,7 +70,7 @@
     "backgroundColor": "blue-background-opacity-25",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/school-of-music.webp",
         "risk": "",
         "title": "School of Music",
         "address": "Childers Street, Acton",
@@ -79,22 +79,22 @@
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
+        "img": "./assets/images/edmund-barton-building.webp",
         "risk": " ",
         "title": "Edmund Barton Building",
         "address": "Kings Avenue, Barton",
         "architect": "Harry Seidler, 1973",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "./assets/images/churchill-house.webp",
+        "img": "./assets/images/civic-square.webp",
         "risk": "AT RISK",
         "title": "Civic Square",
         "address": "Legislative Assembly and Canberra Museum and Gallery, London Circuit",
         "architect": "Yuncken and Freeman, 1961",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -103,31 +103,31 @@
     "backgroundColor": "",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/colonial-mutual-building.webp",
         "risk": "AT RISK",
         "title": "Colonial Mutual Building",
         "address": "University Ave, City",
-        "architect": "BCivil & Civic and Towell, Rippon and Associates, 1968",
+        "architect": "Civil & Civic and Towell, Rippon and Associates, 1968",
         "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
+        "img": "./assets/images/australian-war-memorial-annexe.webp",
         "risk": "",
         "title": "Australian War Memorial Annexe",
         "address": "Callan St, Mitchell",
         "architect": "Enrico Taglietti, 1979",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "./assets/images/churchill-house.webp",
+        "img": "./assets/images/shine-dome.webp",
         "risk": "",
         "title": "The Shine Dome",
         "address": "Australian Academy of Science, McCoy Cres, Acton",
         "architect": "Grounds, Romberg and Boyd, 1959",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -136,31 +136,31 @@
     "backgroundColor": "green-background-opacity-25",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/benjamin-house.webp",
         "risk": "",
-        "title": "National Library of Australia",
-        "address": "Parkes Place, Parkes",
-        "architect": "Bunning and Madden, 1968",
+        "title": "Benjamin House (The Round House)",
+        "address": "10 Gawler Cres, Deakin",
+        "architect": "Alex Jelinek, 1959",
         "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
-        "risk": " ",
-        "title": "University House",
-        "address": "Balmain Crescent, Acton",
-        "architect": "Brian Lewis, 1954",
+        "img": "./assets/images/institute-of-architects.webp",
+        "risk": "",
+        "title": "Australian Institute of Architects",
+        "address": "2A Mugga Way, Red Hill",
+        "architect": "Ancher, Mortlock, Murray and Woolley, 1967",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "./assets/images/churchill-house.webp",
-        "risk": "AT RISK",
-        "title": "Churchill House",
-        "address": "Northbourne Ave, Braddon",
-        "architect": "Robin Boyd, 1971",
+        "img": "./assets/images/st-joseph's-church.webp",
+        "risk": "",
+        "title": "St Joseph’s Church",
+        "address": "Boronia Drive, O’Connor",
+        "architect": "Kevin Curtin, 1971",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -169,31 +169,31 @@
     "backgroundColor": "black-background-opacity-25",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/parliament-house.webp",
         "risk": "",
-        "title": "National Library of Australia",
-        "address": "Parkes Place, Parkes",
-        "architect": "Bunning and Madden, 1968",
+        "title": "Parliament House",
+        "address": "Parliament Dr, Canberra",
+        "architect": "Mitchell,  Giurgola & Thorp, 1988",
         "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
-        "risk": " ",
-        "title": "University House",
-        "address": "Balmain Crescent, Acton",
-        "architect": "Brian Lewis, 1954",
+        "img": "./assets/images/torrens-shops.webp",
+        "risk": "AT RISK",
+        "title": "Torrens Townhouses and Shopping",
+        "address": "Beasley Street, Torrens",
+        "architect": "Dirk Bolt, 1967",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     },
         {
-        "img": "./assets/images/churchill-house.webp",
+        "img": "./assets/images/anzac-park-east.webp",
         "risk": "AT RISK",
-        "title": "Churchill House",
-        "address": "Northbourne Ave, Braddon",
-        "architect": "Robin Boyd, 1971",
+        "title": "Anzac Park East and West",
+        "address": "Anzac Parade,  Reid/Campbell",
+        "architect": "Richard Ure, Department of Works, 1965",
         "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
+        "link": "national-library.html"
     }
     ]
     },
@@ -202,31 +202,22 @@
     "backgroundColor": "warm-olive-background-opacity-25",
     "card": [    
         {
-        "img": "./assets/images/national-library-front-view.jpeg",
+        "img": "./assets/images/high-court.webp",
         "risk": "",
-        "title": "National Library of Australia",
+        "title": "High Court of Australia",
         "address": "Parkes Place, Parkes",
-        "architect": "Bunning and Madden, 1968",
+        "architect": "Edwards, Madigan, Torzillo, Briggs, 1980",
         "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
         "link": "national-library.html"
     },
     {
-        "img": "./assets/images/university-house.webp",
-        "risk": " ",
-        "title": "University House",
-        "address": "Balmain Crescent, Acton",
-        "architect": "Brian Lewis, 1954",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
-        "link": "https://example.com"
-    },
-        {
-        "img": "",
+        "img": "./assets/images/swinger-hill-housing.webp",
         "risk": "",
-        "title": "",
-        "address": "",
-        "architect": "",
-        "description": "",
-        "link": ""
+        "title": "Swinger Hill Housing",
+        "address": "Barnet Close, Swinger Hill",
+        "architect": "Ian McKay and Partners, From 1969",
+        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "link": "national-library.html"
     }
     ]
     }

@@ -14,50 +14,11 @@
 
 <body>
 
-    <header>
-        <div class="top-nav" id="myTopnav">
-            <div class="top-sub-nav-container">
-                <a href="#">PARTNERS</a>
-                <a href="#">LINKS</a>
-                <a href="#">CONTACT US</a>
-                <a href="#">LOGIN</a>
-            </div>
-            <div class="top-nav-container">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="#" class="active">ARCHITECTURE</a>
-                <a href="#">EVENTS</a>
-                <a href="#">IN THE MEDIA</a>
-                <a href="#">GROWING UP MODERN</a>
-            </div>
-            <button class="top-nav-button" id="menuOpen" onclick="mobileMenu()"><i
-                    class="fa-solid fa-solid-nav fa-bars"></i></button>
-        </div>
-        <div class="mobile-menu" id="mobileMenu">
-            <nav>
-                <button class="top-nav-button white" id="menuClose" onclick="mobileMenu()"><i
-                        class="fa-solid fa-solid-nav fa-x"></i></button>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="#" class="active">ARCHITECTURE</a></li>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">IN THE MEDIA</a></li>
-                    <li><a href="#">GROWING UP MODERN</a></li>
-                    <li><a href="#">PARTNERS</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">LOGIN</a></li>
-                </ul>
-                <a href="#"><img class="mobile-menu-logo" alt="Canberra Modern Logo"
-                        src="./assets/images/canberra-modern-logo-v1.png"></a>
-            </nav>
-        </div>
+    <header id="header-placeholder"></header>
 
-    </header>
     <main class="container">
 
-        <button onclick="topFunction()" id="to-top-button" title="Go to top">Go To Top</button>
+        <button onclick="topFunction()" id="to-top-button" class="to-top-button" title="Go to top">Top</button>
 
         <section class="hero-section-mobile">
             <h1 class="blue">MID-CENTURY</h1>
@@ -90,108 +51,15 @@
             <div id="cardcontainer"></div>
         </section>
 
-
-
     </main>
 
-    <footer class="container">
-        <div class="footer-container red-background white">
-            <div class="footer-container-left">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="#" class="active">ARCHITECTURE</a></li>
-                    <li><a href=" #">EVENTS</a></li>
-                    <li><a href="#">IN THE MEDIA</a></li>
-                    <li><a href="#">GROWING UP MODERN</a></li>
-                    <li><a href="#">PARTNERS</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">LOGIN</a></li>
-                </ul>
-            </div>
-            <div class="footer-container-top-right">
-                <form>
-                    <input class="footer-form-input" type="email" id="email" name="email"
-                        placeholder="Your email address">
-                    <button class="footer-form-button" type="button" onclick="alert('Thank you for signing up!')">Sign
-                        Up</button>
-                </form>
-                We’ll never share your details anywhere else.
-                <br>This site is protected by reCAPTCHA and the
-                <br>Google
-                <a href="https://policies.google.com/privacy" target="_blank">
-                    <span class="privacy-policy2">Privacy Policy</span>
-                </a>and
-                <a href="https://policies.google.com/terms" target="_blank">
-                    <span class="privacy-policy2">Terms of Service</span>
-                </a>apply.
-            </div>
-            <div class="footer-container-bottom-right">
-                <div>
-                    <a href="#"><img class="footer-container-logo" alt="Canberra Modern Logo"
-                            src="./assets/images/canberra-modern-logo-v1.png"></a>
-                    <br>This website was produced by students
-                    <br>in the Faculty of Arts & Design,
-                    <br>University of Canberra, 2026.
-                </div>
-            </div>
-            <div class="footer-container-bottom">
-                <a href="#">Privacy</a>
-                <a href="#">Conduct</a>
-                <a href="#">Legal</a>
-            </div>
-        </div>
-    </footer>
+    <footer class="container" id="footer-placeholder"></footer>
 
-    <script>
+    <!-- JavaScript -->
 
-        function mobileMenu() {
-            var menuToggle = document.getElementById('menuOpen');
-            var mobileMenu = document.getElementById('mobileMenu');
-            var bodyElement = document.body;
-
-            menuToggle.addEventListener('click', () => {
-                mobileMenu.classList.add('active');
-            });
-
-            mobileMenu.addEventListener('click', () => {
-                mobileMenu.classList.remove('active');
-            });
-        }
-
-        var toTopButton = document.getElementById("to-top-button");
-        // When the user scrolls down 200px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
-        function scrollFunction() {
-            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && window.innerWidth < 1280) {
-                toTopButton.style.display = "block";
-            } else {
-                toTopButton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
-        }
-
-        window.addEventListener('resize', () => {
-            const currentWidth = window.innerWidth; // Gets viewport width
-            if ((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && currentWidth < 1280) {
-                toTopButton.style.display = "block";
-            } else {
-                toTopButton.style.display = "none";
-            }
-        })
-
-    </script>
-
-    <script src="./assets/javascript/app.js"></script>
+    <script src="./assets/javascript/global-js.js"></script>
+    <script src="./assets/javascript/architecture-cards.js"></script>
+    <script src="./assets/javascript/architecture-page.js"></script>
 
 </body>
 
