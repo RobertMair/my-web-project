@@ -1,4 +1,6 @@
-// Sets current page links to active and smooth scroll to top rather than reloading the page when clicking on the current page link in the top nav, mobile menu, and footer.
+// Sets current page links to active and smooth scroll to top rather than reloading the page when clicking on the
+// current page link in the top nav, mobile menu, and footer.
+
         async function topNav() {
                 console.log('Top navigation initialization complete.');
                 const topNavLink = await waitForElement("#topnav-link-home");

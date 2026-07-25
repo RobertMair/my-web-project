@@ -1,3 +1,7 @@
+/* ========================= */
+/* GLOBAL CSS               */
+/* ========================= */
+
 * {
   box-sizing: border-box;
 }
@@ -6,24 +10,15 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Quick responsive grid layout */
-.architecture-card-container {
-  display: flex;
-  flex-direction: column;
-}
-.architecture-card {
-  padding: 16px;
+.container {
+  margin: 0px auto 0px auto;
   width: 100%;
+  min-width: 402px;
+  max-width: 1440px;
+  height: auto;
 }
 
-.architecture-card-image {
-  filter: grayscale(100%);
-  width: 100%;
-  height: 243px;
-  object-fit: cover;
-}
-
-/* ========== Global Styles: Colours ========== */
+/* Global Styles: Colours */
 
 :root {
   --yellow: 245, 218, 7;
@@ -119,22 +114,22 @@ html {
   background-color: rgba(var(--black), 0.25);
 }
 
-/* ========== Global Styles: Typography ========== */
+/* Global Styles: Typography */
 
 :root {
   --font-body-small: 16px;
   --font-body-regular: 18px;
-  --font-body-reg-med: 24px; /* Done */
-  --font-body-medium: 24px; /* Done */
-  --font-body-large: 28px; /* Done */
+  --font-body-reg-med: 24px;
+  --font-body-medium: 24px;
+  --font-body-large: 28px;
   --font-sm: 18px;
-  --font-med: 18px; /* Done */
+  --font-med: 18px;
   --font-h6: 18px;
-  --font-h5: 28px; /* Done */
-  --font-h4: 32px; /* Done */
-  --font-h3: 32px; /* Done */
-  --font-h2: 48px; /* Done */
-  --font-h1: 48px; /* Done */
+  --font-h5: 28px;
+  --font-h4: 32px;
+  --font-h3: 32px;
+  --font-h2: 48px;
+  --font-h1: 48px;
 }
 @media (min-width: 768px) {
   :root {
@@ -144,7 +139,7 @@ html {
     --font-body-medium: 28px;
     --font-body-large: 32px;
     --font-sm: 18px;
-    --font-med: 22px; /* Done */
+    --font-med: 22px;
     --font-h6: 20px;
     --font-h5: 32px;
     --font-h4: 36px;
@@ -155,23 +150,23 @@ html {
 }
 @media (min-width: 1280px) {
   :root {
-    --font-body-small: 18px; /* Done */
-    --font-body-regular: 20px; /* Done */
-    --font-body-reg-med: 28px; /* Done */
-    --font-body-medium: 32px; /* Done */
-    --font-body-large: 36px; /* Done */
-    --font-sm: 20px; /* Done */
-    --font-med: 24px; /* Done */
-    --font-h6: 32px; /* Done */
-    --font-h5: 36px; /* Done */
-    --font-h4: 48px; /* Done */
-    --font-h3: 64px; /* Done */
-    --font-h2: 112px; /* Done */
-    --font-h1: 128px; /* Done */
+    --font-body-small: 18px;
+    --font-body-regular: 20px;
+    --font-body-reg-med: 28px;
+    --font-body-medium: 32px;
+    --font-body-large: 36px;
+    --font-sm: 20px;
+    --font-med: 24px;
+    --font-h6: 32px;
+    --font-h5: 36px;
+    --font-h4: 48px;
+    --font-h3: 64px;
+    --font-h2: 112px;
+    --font-h1: 128px;
   }
 }
 
-/* ========== Global Styles: Body Text ========== */
+/* Global Styles: Body Text */
 
 body {
   font-style: normal;
@@ -216,7 +211,7 @@ a {
   font-size: var(--font-body-small);
 }
 
-/* ========== Global Styles: Headings ========== */
+/* Global Styles: Headings */
 
 h1,
 h2,
@@ -259,11 +254,10 @@ h6 {
 
 .font-sm {
   font-size: var(--font-sm);
-  /* line-height: 0.4; */
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
 }
 
-/* ========== Global Styles: Responsive Top Navigation ========== */
+/* Global Styles: Responsive Top Navigation */
 
 /* Add a black background color to the top navigation */
 .top-nav {
@@ -310,6 +304,7 @@ h6 {
   float: left;
   padding: 20px 8px 0px 8px;
   color: rgba(var(--black), 1);
+  font-weight: 700;
   font-size: 18px;
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
   text-align: center;
@@ -356,7 +351,6 @@ h6 {
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  /* display: none; */
   overscroll-behavior: contain;
 }
 
@@ -414,7 +408,7 @@ h6 {
   }
 }
 
-/* ========== Global Styles: Scroll to top floating button ========== */
+/* Global Styles: Scroll to top floating button */
 
 #to-top-button {
   display: none;
@@ -470,21 +464,9 @@ h6 {
   }
 }
 
-/* ========== */
-/* GLOBAL CSS */
-/* ========== */
-
-.container {
-  margin: 0px auto 0px auto;
-  width: 100%;
-  min-width: 402px;
-  max-width: 1440px;
-  height: auto;
-}
-
-/* ============= */
-/* HOME PAGE CSS */
-/* ============= */
+/* ========================= */
+/* HOME PAGE CSS         */
+/* ========================= */
 
 .hero-section-mobile {
   margin-top: 100px;
@@ -611,7 +593,31 @@ h6 {
   color: rgba(var(--black));
 }
 
-/* BUILDING SUB PAGE CSS */
+/* ========================= */
+/* ARCHITECTURE PAGE CSS     */
+/* ========================= */
+
+/* Quick responsive grid layout */
+.architecture-card-container {
+  display: flex;
+  flex-direction: column;
+}
+.architecture-card {
+  border: 1px solid rgba(var(--black), 0.1);
+  padding: 16px;
+  width: 100%;
+}
+
+.architecture-card-image {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 243px;
+  object-fit: cover;
+}
+
+/* ========================= */
+/* BUILDING SUB PAGE CSS     */
+/* ========================= */
 
 .building-page-hero-section {
   display: grid;
@@ -657,12 +663,15 @@ h6 {
   align-self: stretch;
   padding: 30px 16px;
 }
+
 .three-column-container-one {
   grid-area: 1 / span 1;
 }
+
 .three-column-container-two {
   grid-area: 2 / span 1;
 }
+
 .three-column-container-three {
   grid-area: 3 / span 1;
 }
@@ -673,10 +682,12 @@ h6 {
   align-self: stretch;
   padding: 30px 16px;
 }
+
 .one-two-column-container-one {
   grid-area: 2 / span 1;
   overflow: hidden;
 }
+
 .one-two-column-container-two {
   grid-area: 1 / span 1;
   overflow: hidden;
@@ -688,10 +699,12 @@ h6 {
   align-self: stretch;
   padding: 30px 16px;
 }
+
 .two-one-column-container-one {
   grid-area: 1 / span 2;
   overflow: hidden;
 }
+
 .two-one-column-container-two {
   grid-area: 2 / span 1;
   overflow: hidden;
@@ -711,6 +724,7 @@ h6 {
   align-items: center;
   overflow: hidden;
 }
+
 .fill img {
   filter: opacity(50%);
   width: 100%;
@@ -718,7 +732,9 @@ h6 {
   object-fit: cover;
 }
 
-/* FOOTER CSS */
+/* ========================= */
+/* FOOTER CSS                */
+/* ========================= */
 
 .footer-container {
   display: grid;
@@ -732,10 +748,12 @@ h6 {
   font-size: var(--font-body-small);
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
 }
+
 .footer-container-left {
   display: none;
   grid-area: footer-container-left;
 }
+
 .footer-container-top-right {
   grid-area: footer-container-top-right;
   justify-content: center;
@@ -743,6 +761,7 @@ h6 {
   margin-bottom: 55px;
   text-align: center;
 }
+
 .footer-container-bottom-right {
   display: flex;
   grid-area: footer-container-bottom-right;
@@ -751,8 +770,10 @@ h6 {
   padding-bottom: 28px;
   text-align: center;
 }
+
 .footer-container-bottom {
   grid-area: footer-container-bottom;
+  border-top: 2px solid rgba(var(--white));
   padding: 20px 0 20px 0;
   text-align: center;
   word-spacing: 58px;
@@ -825,18 +846,23 @@ h6 {
   width: 335px;
 }
 
-/* MEDIA QUERIES */
+/* ========================= */
+/* MEDIA QUERIES             */
+/* ========================= */
 
 @media (min-width: 768px) {
   .black-white {
     color: rgba(var(--white));
   }
+
   .hero-section-mobile {
     display: none;
   }
+
   .hero-section-desktop {
     display: inline-block;
   }
+
   .home-page-image-left-section-left {
     grid-area: 1 / span 7;
     padding: 0px 0px 0px 16px;
@@ -850,6 +876,7 @@ h6 {
   .home-page-image-right-section-left {
     grid-area: 1 / span 7;
   }
+
   .home-page-image-right-section-right {
     grid-area: 1 / span 5;
     padding: 0px 16px 0px 0px;
@@ -859,9 +886,11 @@ h6 {
   .home-page-image-left {
     padding: 0px 0px 0px 16px;
   }
+
   .home-page-image-left-no-pad {
     padding: 0px;
   }
+
   .home-page-image-right {
     padding: 0px 16px 0px 0px;
   }
@@ -877,6 +906,7 @@ h6 {
   .building-page-hero-section-left {
     grid-area: 1 / span 7;
   }
+
   .building-page-hero-section-right {
     grid-area: 1 / span 5;
   }
@@ -884,43 +914,55 @@ h6 {
   .three-column-container-one {
     grid-area: 1 / span 2;
   }
+
   .three-column-container-two {
     grid-area: 2 / span 1;
   }
+
   .three-column-container-three {
     grid-area: 2 / span 1;
   }
+
   .one-two-column-container {
     grid-template-columns: 1fr 1fr;
     column-gap: 51px;
   }
+
   .one-two-column-container-one {
     grid-area: 1 / span 1;
   }
+
   .one-two-column-container-two {
     grid-area: 1 / span 1;
   }
+
   .two-one-column-container {
     grid-template-columns: 1fr 1fr;
     column-gap: 51px;
   }
+
   .two-one-column-container-one {
     grid-area: 1 / span 1;
   }
+
   .two-one-column-container-two {
     grid-area: 1 / span 1;
   }
+
   .footer-container {
     grid-template-areas: "footer-container-left footer-container-top-right" "footer-container-left footer-container-bottom-right" "footer-container-bottom footer-container-bottom";
   }
+
   .footer-container-left {
     display: block;
   }
+
   .footer-container-top-right {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
   }
+
   .footer-container-bottom-right {
     justify-content: flex-end;
     align-items: flex-end;
@@ -933,6 +975,7 @@ h6 {
     top: 40px;
     left: 122px;
   }
+
   .hero-section-desktop h2 {
     top: 220px;
     left: 122px;
@@ -969,28 +1012,32 @@ h6 {
   .home-page-image-left {
     padding: 0px 0px 0px 122px;
   }
+
   .home-page-image-right {
     padding: 0px 122px 0px 0px;
   }
 
   .architecture-card-container {
-    /* gap: 40px; */
     padding: 85px 122px;
   }
 
   .building-page-hero-card {
     padding: 35px 122px 48px 52px;
   }
+
   .three-column-container {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 85px 122px;
   }
+
   .three-column-container-one {
     grid-area: 1 / span 1;
   }
+
   .three-column-container-two {
     grid-area: 1 / span 1;
   }
+
   .three-column-container-three {
     grid-area: 1 / span 1;
   }
@@ -999,9 +1046,11 @@ h6 {
     grid-template-columns: 1fr 2fr;
     padding: 30px 122px;
   }
+
   .one-two-column-container-one {
     grid-area: 1 / span 1;
   }
+
   .one-two-column-container-two {
     grid-area: 1 / span 2;
   }

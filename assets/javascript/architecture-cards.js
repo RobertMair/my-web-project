@@ -1,12 +1,15 @@
+// Renders 'cards' for each building on the Architecture page using data from a JSON file.
+// The cards are grouped by category and displayed in a container.
+
 // Target the container in the DOM
-const container = document.getElementById('architecture-card-container');
+const cardContainer = document.getElementById('card-container');
 let cardsHTML = '';
 
 // Fetch and render the data
 async function loadCards() {
   try {
     // Fetch json data for the architecture cards.
-    const response = await fetch('./assets/json/data.json'); 
+    const response = await fetch('./assets/json/architecture-card-data.json'); 
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -16,7 +19,7 @@ async function loadCards() {
     renderCards(data);
   } catch (error) {
     console.error('Error fetching data:', error);
-    container.innerHTML = `<p>Failed to load items.</p>`;
+    cardContainer.innerHTML = `<p>Failed to load items.</p>`;
   }
 }
 
@@ -48,7 +51,7 @@ function renderCards(data) {
 
     });
   // Render the generated cards
-  cardcontainer.innerHTML = cardsHTML;
+  cardContainer.innerHTML = cardsHTML;
 }
 
 // Simple security helper to prevent XSS injection from untrusted JSON

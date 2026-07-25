@@ -18,7 +18,7 @@
         "title": "University House",
         "address": "Balmain Crescent, Acton",
         "architect": "Brian Lewis, 1954",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Built between 1950 and 1954, University House was ANU's first building, designed by Brian Lewis in Oxbridge style...",
         "link": "national-library.html"
     },
         {
@@ -27,7 +27,7 @@
         "title": "Churchill House",
         "address": "Northbourne Ave, Braddon",
         "architect": "Robin Boyd, 1971",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Built in 1971, Churchill House features striking Brutalist design with precast concrete construction...",
         "link": "national-library.html"
     }
     ]
@@ -39,10 +39,10 @@
         {
         "img": "./assets/images/urambi-village.webp",
         "risk": "",
-        "title": "Urambi Village and Wybalena Grove",
-        "address": "Urambi Village, Crozier Cct, Kambah and Wybalena Grove, Cook",
+        "title": "Urambi Village",
+        "address": "Urambi Village, Crozier Cct, Kambah",
         "architect": "Michael Dysart, 1974",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Built in 1974–76, Urambi Village used split-level brick and timber homes that follow the natural landscape...",
         "link": "national-library.html"
     },
     {
@@ -51,7 +51,7 @@
         "title": "Callam Offices",
         "address": "Callam Street, Woden",
         "architect": "John Andrews, 1977-81",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Planned in the 1970s, Callam Offices were intended for 6,000 public servants, but only three pods were completed...",
         "link": "national-library.html"
     },
         {
@@ -60,7 +60,7 @@
         "title": "Giralang Primary School",
         "address": "Atalumba Close, Giralang",
         "architect": "Enrico Taglietti, 1976",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Giralang Primary is a heritage-listed school celebrated for its innovative 1970s architecture and bushland setting...",
         "link": "national-library.html"
     }
     ]
@@ -75,7 +75,7 @@
         "title": "School of Music",
         "address": "Childers Street, Acton",
         "architect": "Daryl Jackson and Evan Walker, 1976",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Built in 1976, the School of Music blends concrete, brick, and timber with acoustics-first design...",
         "link": "national-library.html"
     },
     {
@@ -84,16 +84,16 @@
         "title": "Edmund Barton Building",
         "address": "Kings Avenue, Barton",
         "architect": "Harry Seidler, 1973",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Heritage-listed government offices completed in 1974, noted for bold Brutalist architecture and civic design...",
         "link": "national-library.html"
     },
         {
         "img": "./assets/images/civic-square.webp",
         "risk": "AT RISK",
         "title": "Civic Square",
-        "address": "Legislative Assembly and Canberra Museum and Gallery, London Circuit",
+        "address": "London Circuit, Canberra",
         "architect": "Yuncken and Freeman, 1961",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Civic Square is Canberra's cultural heart, home to the Legislative Assembly, Canberra Museum and Gallery, and public events...",
         "link": "national-library.html"
     }
     ]
@@ -108,7 +108,7 @@
         "title": "Colonial Mutual Building",
         "address": "University Ave, City",
         "architect": "Civil & Civic and Towell, Rippon and Associates, 1968",
-        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "description": "Colonial Mutual Building is a heritage-listed 1959 office noted for its modernist design and landmark status...",
         "link": "national-library.html"
     },
     {
@@ -117,16 +117,16 @@
         "title": "Australian War Memorial Annexe",
         "address": "Callan St, Mitchell",
         "architect": "Enrico Taglietti, 1979",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Australian War Memorial Annexe is a heritage-listed WWII storage and conservation facility in Mitchell...",
         "link": "national-library.html"
     },
         {
         "img": "./assets/images/shine-dome.webp",
         "risk": "",
         "title": "The Shine Dome",
-        "address": "Australian Academy of Science, McCoy Cres, Acton",
+        "address": "Academy of Science, McCoy Cres, Acton",
         "architect": "Grounds, Romberg and Boyd, 1959",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "The Shine Dome, completed in 1959, is an iconic Canberra landmark renowned for its striking concrete dome design...",
         "link": "national-library.html"
     }
     ]
@@ -139,18 +139,18 @@
         "img": "./assets/images/benjamin-house.webp",
         "risk": "",
         "title": "Benjamin House (The Round House)",
-        "address": "10 Gawler Cres, Deakin",
-        "architect": "Alex Jelinek, 1959",
-        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "address": "Gawler Cres, Deakin",
+        "architect": "Alex Jelinek, 1956",
+        "description": "Completed in 1957, Benjamin House used a Pythagorean spiral plan with concrete blockwork and reinforced walls...",
         "link": "national-library.html"
     },
     {
         "img": "./assets/images/institute-of-architects.webp",
         "risk": "",
         "title": "Australian Institute of Architects",
-        "address": "2A Mugga Way, Red Hill",
+        "address": "Mugga Way, Red Hill",
         "architect": "Ancher, Mortlock, Murray and Woolley, 1967",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Australian Institute of Architects headquarters, a heritage-listed modernist building set among Red Hill bushland...",
         "link": "national-library.html"
     },
         {
@@ -159,7 +159,7 @@
         "title": "St Joseph’s Church",
         "address": "Boronia Drive, O’Connor",
         "architect": "Kevin Curtin, 1971",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "St Joseph’s Church is a heritage-listed Catholic church in O’Connor, known for its modernist design...",
         "link": "national-library.html"
     }
     ]
@@ -173,8 +173,8 @@
         "risk": "",
         "title": "Parliament House",
         "address": "Parliament Dr, Canberra",
-        "architect": "Mitchell,  Giurgola & Thorp, 1988",
-        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "architect": "Mitchell, Giurgola & Thorp, 1988",
+        "description": "Parliament House, opened in 1988, is Australia's national Parliament, renowned for its iconic grass-covered roof...",
         "link": "national-library.html"
     },
     {
@@ -183,16 +183,16 @@
         "title": "Torrens Townhouses and Shopping",
         "address": "Beasley Street, Torrens",
         "architect": "Dirk Bolt, 1967",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Heritage-listed 1960s precinct combining innovative townhouses with a neighbourhood shopping centre...",
         "link": "national-library.html"
     },
         {
         "img": "./assets/images/anzac-park-east.webp",
         "risk": "AT RISK",
         "title": "Anzac Park East and West",
-        "address": "Anzac Parade,  Reid/Campbell",
+        "address": "Anzac Parade, Reid/Campbell",
         "architect": "Richard Ure, Department of Works, 1965",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Anzac Park East and West are heritage-listed landscapes framing Anzac Parade with memorial plantings and vistas...",
         "link": "national-library.html"
     }
     ]
@@ -207,7 +207,7 @@
         "title": "High Court of Australia",
         "address": "Parkes Place, Parkes",
         "architect": "Edwards, Madigan, Torzillo, Briggs, 1980",
-        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+        "description": "Completed in 1980, the High Court is an iconic modernist landmark symbolising Australia's justice system...",
         "link": "national-library.html"
     },
     {
@@ -216,7 +216,7 @@
         "title": "Swinger Hill Housing",
         "address": "Barnet Close, Swinger Hill",
         "architect": "Ian McKay and Partners, From 1969",
-        "description": "<< Brief blurb about building... Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth.....>>",
+        "description": "Swinger Hill Housing is a heritage-listed 1970s medium-density estate designed to blend with the landscape...",
         "link": "national-library.html"
     }
     ]
