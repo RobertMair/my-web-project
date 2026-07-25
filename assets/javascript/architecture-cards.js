@@ -40,7 +40,7 @@ function renderCards(data) {
             <p class="font-sm">${escapeHTML(card.architect)}</p>
             <br>
               <p>${escapeHTML(card.description)}</p>
-              <a href="${card.link}" target="_blank"><button class="home-page-button">More</button></a>
+              <button class="home-page-button" onclick="document.location='${card.link}'">More</button>
           </div>
       `;
       console.log(card.title);

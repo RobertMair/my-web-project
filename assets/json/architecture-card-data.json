@@ -1,224 +1,224 @@
 [
-  {
-    "row": "1",
-    "backgroundColor": "yellow-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/national-library-front-view.jpeg",
-        "risk": "",
-        "title": "National Library of Australia",
-        "address": "Parkes Place, Parkes",
-        "architect": "Bunning and Madden, 1968",
-        "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
-        "link": "national-library.html"
+    {
+        "row": "1",
+        "backgroundColor": "yellow-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/national-library-front-view.jpeg",
+                "risk": "",
+                "title": "National Library of Australia",
+                "address": "Parkes Place, Parkes",
+                "architect": "Bunning and Madden, 1968",
+                "description": "The National Library of Australia building was opened on 15 August 1968 by Prime Minister John Gorton...",
+                "link": "national-library.html"
+            },
+            {
+                "img": "./assets/images/university-house.webp",
+                "risk": " ",
+                "title": "University House",
+                "address": "Balmain Crescent, Acton",
+                "architect": "Brian Lewis, 1954",
+                "description": "Built between 1950 and 1954, University House was ANU's first building, designed by Brian Lewis in Oxbridge style...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/churchill-house.webp",
+                "risk": "AT RISK",
+                "title": "Churchill House",
+                "address": "Northbourne Ave, Braddon",
+                "architect": "Robin Boyd, 1971",
+                "description": "Built in 1971, Churchill House features striking Brutalist design with precast concrete construction...",
+                "link": "#/"
+            }
+        ]
     },
     {
-        "img": "./assets/images/university-house.webp",
-        "risk": " ",
-        "title": "University House",
-        "address": "Balmain Crescent, Acton",
-        "architect": "Brian Lewis, 1954",
-        "description": "Built between 1950 and 1954, University House was ANU's first building, designed by Brian Lewis in Oxbridge style...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/churchill-house.webp",
-        "risk": "AT RISK",
-        "title": "Churchill House",
-        "address": "Northbourne Ave, Braddon",
-        "architect": "Robin Boyd, 1971",
-        "description": "Built in 1971, Churchill House features striking Brutalist design with precast concrete construction...",
-        "link": "national-library.html"
-    }
-    ]
-    },
-    {
-    "row": "2",
-    "backgroundColor": "grey-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/urambi-village.webp",
-        "risk": "",
-        "title": "Urambi Village",
-        "address": "Urambi Village, Crozier Cct, Kambah",
-        "architect": "Michael Dysart, 1974",
-        "description": "Built in 1974–76, Urambi Village used split-level brick and timber homes that follow the natural landscape...",
-        "link": "national-library.html"
-    },
-    {
-        "img": "./assets/images/callam-offices.webp",
-        "risk": "AT RISK",
-        "title": "Callam Offices",
-        "address": "Callam Street, Woden",
-        "architect": "John Andrews, 1977-81",
-        "description": "Planned in the 1970s, Callam Offices were intended for 6,000 public servants, but only three pods were completed...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/giralang-primary.webp",
-        "risk": " ",
-        "title": "Giralang Primary School",
-        "address": "Atalumba Close, Giralang",
-        "architect": "Enrico Taglietti, 1976",
-        "description": "Giralang Primary is a heritage-listed school celebrated for its innovative 1970s architecture and bushland setting...",
-        "link": "national-library.html"
-    }
-    ]
+        "row": "2",
+        "backgroundColor": "grey-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/urambi-village.webp",
+                "risk": "",
+                "title": "Urambi Village",
+                "address": "Urambi Village, Crozier Cct, Kambah",
+                "architect": "Michael Dysart, 1974",
+                "description": "Built in 1974–76, Urambi Village used split-level brick and timber homes that follow the natural landscape...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/callam-offices.webp",
+                "risk": "AT RISK",
+                "title": "Callam Offices",
+                "address": "Callam Street, Woden",
+                "architect": "John Andrews, 1977-81",
+                "description": "Planned in the 1970s, Callam Offices were intended for 6,000 public servants, but only three pods were completed...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/giralang-primary.webp",
+                "risk": " ",
+                "title": "Giralang Primary School",
+                "address": "Atalumba Close, Giralang",
+                "architect": "Enrico Taglietti, 1976",
+                "description": "Giralang Primary is a heritage-listed school celebrated for its innovative 1970s architecture and bushland setting...",
+                "link": "#/"
+            }
+        ]
     },
     {
-    "row": "3",
-    "backgroundColor": "blue-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/school-of-music.webp",
-        "risk": "",
-        "title": "School of Music",
-        "address": "Childers Street, Acton",
-        "architect": "Daryl Jackson and Evan Walker, 1976",
-        "description": "Built in 1976, the School of Music blends concrete, brick, and timber with acoustics-first design...",
-        "link": "national-library.html"
+        "row": "3",
+        "backgroundColor": "blue-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/school-of-music.webp",
+                "risk": "",
+                "title": "School of Music",
+                "address": "Childers Street, Acton",
+                "architect": "Daryl Jackson and Evan Walker, 1976",
+                "description": "Built in 1976, the School of Music blends concrete, brick, and timber with acoustics-first design...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/edmund-barton-building.webp",
+                "risk": " ",
+                "title": "Edmund Barton Building",
+                "address": "Kings Avenue, Barton",
+                "architect": "Harry Seidler, 1973",
+                "description": "Heritage-listed government offices completed in 1974, noted for bold Brutalist architecture and civic design...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/civic-square.webp",
+                "risk": "AT RISK",
+                "title": "Civic Square",
+                "address": "London Circuit, Canberra",
+                "architect": "Yuncken and Freeman, 1961",
+                "description": "Civic Square is Canberra's cultural heart, home to the Legislative Assembly, Canberra Museum and Gallery, and public events...",
+                "link": "#/"
+            }
+        ]
     },
     {
-        "img": "./assets/images/edmund-barton-building.webp",
-        "risk": " ",
-        "title": "Edmund Barton Building",
-        "address": "Kings Avenue, Barton",
-        "architect": "Harry Seidler, 1973",
-        "description": "Heritage-listed government offices completed in 1974, noted for bold Brutalist architecture and civic design...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/civic-square.webp",
-        "risk": "AT RISK",
-        "title": "Civic Square",
-        "address": "London Circuit, Canberra",
-        "architect": "Yuncken and Freeman, 1961",
-        "description": "Civic Square is Canberra's cultural heart, home to the Legislative Assembly, Canberra Museum and Gallery, and public events...",
-        "link": "national-library.html"
-    }
-    ]
-    },
-    {
-    "row": "4",
-    "backgroundColor": "",
-    "card": [    
-        {
-        "img": "./assets/images/colonial-mutual-building.webp",
-        "risk": "AT RISK",
-        "title": "Colonial Mutual Building",
-        "address": "University Ave, City",
-        "architect": "Civil & Civic and Towell, Rippon and Associates, 1968",
-        "description": "Colonial Mutual Building is a heritage-listed 1959 office noted for its modernist design and landmark status...",
-        "link": "national-library.html"
-    },
-    {
-        "img": "./assets/images/australian-war-memorial-annexe.webp",
-        "risk": "",
-        "title": "Australian War Memorial Annexe",
-        "address": "Callan St, Mitchell",
-        "architect": "Enrico Taglietti, 1979",
-        "description": "Australian War Memorial Annexe is a heritage-listed WWII storage and conservation facility in Mitchell...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/shine-dome.webp",
-        "risk": "",
-        "title": "The Shine Dome",
-        "address": "Academy of Science, McCoy Cres, Acton",
-        "architect": "Grounds, Romberg and Boyd, 1959",
-        "description": "The Shine Dome, completed in 1959, is an iconic Canberra landmark renowned for its striking concrete dome design...",
-        "link": "national-library.html"
-    }
-    ]
+        "row": "4",
+        "backgroundColor": "",
+        "card": [    
+            {
+                "img": "./assets/images/colonial-mutual-building.webp",
+                "risk": "AT RISK",
+                "title": "Colonial Mutual Building",
+                "address": "University Ave, City",
+                "architect": "Civil & Civic and Towell, Rippon and Associates, 1968",
+                "description": "Colonial Mutual Building is a heritage-listed 1959 office noted for its modernist design and landmark status...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/australian-war-memorial-annexe.webp",
+                "risk": "",
+                "title": "Australian War Memorial Annexe",
+                "address": "Callan St, Mitchell",
+                "architect": "Enrico Taglietti, 1979",
+                "description": "Australian War Memorial Annexe is a heritage-listed WWII storage and conservation facility in Mitchell...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/shine-dome.webp",
+                "risk": "",
+                "title": "The Shine Dome",
+                "address": "Academy of Science, McCoy Cres, Acton",
+                "architect": "Grounds, Romberg and Boyd, 1959",
+                "description": "The Shine Dome, completed in 1959, is an iconic Canberra landmark renowned for its striking concrete dome design...",
+                "link": "#/"
+            }
+        ]
     },
     {
-    "row": "5",
-    "backgroundColor": "green-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/benjamin-house.webp",
-        "risk": "",
-        "title": "Benjamin House (The Round House)",
-        "address": "Gawler Cres, Deakin",
-        "architect": "Alex Jelinek, 1956",
-        "description": "Completed in 1957, Benjamin House used a Pythagorean spiral plan with concrete blockwork and reinforced walls...",
-        "link": "national-library.html"
+        "row": "5",
+        "backgroundColor": "green-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/benjamin-house.webp",
+                "risk": "",
+                "title": "Benjamin House (The Round House)",
+                "address": "Gawler Cres, Deakin",
+                "architect": "Alex Jelinek, 1956",
+                "description": "Completed in 1957, Benjamin House used a Pythagorean spiral plan with concrete blockwork and reinforced walls...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/institute-of-architects.webp",
+                "risk": "",
+                "title": "Australian Institute of Architects",
+                "address": "Mugga Way, Red Hill",
+                "architect": "Ancher, Mortlock, Murray and Woolley, 1967",
+                "description": "Australian Institute of Architects headquarters, a heritage-listed modernist building set among Red Hill bushland...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/st-joseph's-church.webp",
+                "risk": "",
+                "title": "St Joseph’s Church",
+                "address": "Boronia Drive, O’Connor",
+                "architect": "Kevin Curtin, 1971",
+                "description": "St Joseph’s Church is a heritage-listed Catholic church in O’Connor, known for its modernist design...",
+                "link": "#/"
+            }
+        ]
     },
     {
-        "img": "./assets/images/institute-of-architects.webp",
-        "risk": "",
-        "title": "Australian Institute of Architects",
-        "address": "Mugga Way, Red Hill",
-        "architect": "Ancher, Mortlock, Murray and Woolley, 1967",
-        "description": "Australian Institute of Architects headquarters, a heritage-listed modernist building set among Red Hill bushland...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/st-joseph's-church.webp",
-        "risk": "",
-        "title": "St Joseph’s Church",
-        "address": "Boronia Drive, O’Connor",
-        "architect": "Kevin Curtin, 1971",
-        "description": "St Joseph’s Church is a heritage-listed Catholic church in O’Connor, known for its modernist design...",
-        "link": "national-library.html"
-    }
-    ]
-    },
-    {
-    "row": "6",
-    "backgroundColor": "black-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/parliament-house.webp",
-        "risk": "",
-        "title": "Parliament House",
-        "address": "Parliament Dr, Canberra",
-        "architect": "Mitchell, Giurgola & Thorp, 1988",
-        "description": "Parliament House, opened in 1988, is Australia's national Parliament, renowned for its iconic grass-covered roof...",
-        "link": "national-library.html"
-    },
-    {
-        "img": "./assets/images/torrens-shops.webp",
-        "risk": "AT RISK",
-        "title": "Torrens Townhouses and Shopping",
-        "address": "Beasley Street, Torrens",
-        "architect": "Dirk Bolt, 1967",
-        "description": "Heritage-listed 1960s precinct combining innovative townhouses with a neighbourhood shopping centre...",
-        "link": "national-library.html"
-    },
-        {
-        "img": "./assets/images/anzac-park-east.webp",
-        "risk": "AT RISK",
-        "title": "Anzac Park East and West",
-        "address": "Anzac Parade, Reid/Campbell",
-        "architect": "Richard Ure, Department of Works, 1965",
-        "description": "Anzac Park East and West are heritage-listed landscapes framing Anzac Parade with memorial plantings and vistas...",
-        "link": "national-library.html"
-    }
-    ]
+        "row": "6",
+        "backgroundColor": "black-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/parliament-house.webp",
+                "risk": "",
+                "title": "Parliament House",
+                "address": "Parliament Dr, Canberra",
+                "architect": "Mitchell, Giurgola & Thorp, 1988",
+                "description": "Parliament House, opened in 1988, is Australia's national Parliament, renowned for its iconic grass-covered roof...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/torrens-shops.webp",
+                "risk": "AT RISK",
+                "title": "Torrens Townhouses and Shopping",
+                "address": "Beasley Street, Torrens",
+                "architect": "Dirk Bolt, 1967",
+                "description": "Heritage-listed 1960s precinct combining innovative townhouses with a neighbourhood shopping centre...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/anzac-park-east.webp",
+                "risk": "AT RISK",
+                "title": "Anzac Park East and West",
+                "address": "Anzac Parade, Reid/Campbell",
+                "architect": "Richard Ure, Department of Works, 1965",
+                "description": "Anzac Park East and West are heritage-listed landscapes framing Anzac Parade with memorial plantings and vistas...",
+                "link": "#/"
+            }
+        ]
     },
     {
-    "row": "7",
-    "backgroundColor": "warm-olive-background-opacity-25",
-    "card": [    
-        {
-        "img": "./assets/images/high-court.webp",
-        "risk": "",
-        "title": "High Court of Australia",
-        "address": "Parkes Place, Parkes",
-        "architect": "Edwards, Madigan, Torzillo, Briggs, 1980",
-        "description": "Completed in 1980, the High Court is an iconic modernist landmark symbolising Australia's justice system...",
-        "link": "national-library.html"
-    },
-    {
-        "img": "./assets/images/swinger-hill-housing.webp",
-        "risk": "",
-        "title": "Swinger Hill Housing",
-        "address": "Barnet Close, Swinger Hill",
-        "architect": "Ian McKay and Partners, From 1969",
-        "description": "Swinger Hill Housing is a heritage-listed 1970s medium-density estate designed to blend with the landscape...",
-        "link": "national-library.html"
-    }
-    ]
+        "row": "7",
+        "backgroundColor": "warm-olive-background-opacity-25",
+        "card": [    
+            {
+                "img": "./assets/images/high-court.webp",
+                "risk": "",
+                "title": "High Court of Australia",
+                "address": "Parkes Place, Parkes",
+                "architect": "Edwards, Madigan, Torzillo, Briggs, 1980",
+                "description": "Completed in 1980, the High Court is an iconic modernist landmark symbolising Australia's justice system...",
+                "link": "#/"
+            },
+            {
+                "img": "./assets/images/swinger-hill-housing.webp",
+                "risk": "",
+                "title": "Swinger Hill Housing",
+                "address": "Barnet Close, Swinger Hill",
+                "architect": "Ian McKay and Partners, From 1969",
+                "description": "Swinger Hill Housing is a heritage-listed 1970s medium-density estate designed to blend with the landscape...",
+                "link": "#/"
+            }
+        ]
     }
 ]

@@ -34,24 +34,31 @@ html {
 .yellow {
   color: rgba(var(--yellow));
 }
+
 .red {
   color: rgba(var(--red));
 }
+
 .green {
   color: rgba(var(--green));
 }
+
 .blue {
   color: rgba(var(--blue));
 }
+
 .grey {
   color: rgba(var(--grey));
 }
+
 .warm-olive {
   color: rgba(var(--warm-olive));
 }
+
 .white {
   color: rgba(var(--white));
 }
+
 .black {
   color: rgba(var(--black));
 }
@@ -59,57 +66,75 @@ html {
 .yellow-background {
   background-color: rgba(var(--yellow));
 }
+
 .yellow-background-opacity-25 {
   background-color: rgba(var(--yellow), 0.25);
 }
+
 .yellow-background-opacity-50 {
   background-color: rgba(var(--yellow), 0.5);
 }
+
 .red-background {
   background-color: rgba(var(--red));
 }
+
 .red-background-opacity-50 {
   background-color: rgba(var(--red), 0.5);
 }
+
 .green-background {
   background-color: rgba(var(--green));
 }
+
 .green-background-opacity-25 {
   background-color: rgba(var(--green), 0.25);
 }
+
 .green-background-opacity-50 {
   background-color: rgba(var(--green), 0.5);
 }
+
 .blue-background {
   background-color: rgba(var(--blue));
 }
+
 .blue-background-opacity-25 {
   background-color: rgba(var(--blue), 0.25);
 }
+
 .blue-background-opacity-50 {
   background-color: rgba(var(--blue), 0.5);
 }
+
 .grey-background {
   background-color: rgba(var(--grey));
 }
+
 .grey-background-opacity-25 {
   background-color: rgba(var(--grey), 0.25);
 }
+
 .warm-olive-background {
   background-color: rgba(var(--warm-olive));
 }
+
 .warm-olive-background-opacity-25 {
   background-color: rgba(var(--warm-olive), 0.25);
 }
+
 .warm-olive-background-opacity-50 {
   background-color: rgba(var(--warm-olive), 0.5);
 }
+
 .white-background {
   background-color: rgba(var(--white));
 }
+
 .black-background {
   background-color: rgba(var(--black));
 }
+
 .black-background-opacity-25 {
   background-color: rgba(var(--black), 0.25);
 }
@@ -122,6 +147,8 @@ html {
   --font-body-reg-med: 24px;
   --font-body-medium: 24px;
   --font-body-large: 28px;
+  --font-body-x-large: 32px;
+  --font-body-xx-large: 32px;
   --font-sm: 18px;
   --font-med: 18px;
   --font-h6: 18px;
@@ -131,6 +158,7 @@ html {
   --font-h2: 48px;
   --font-h1: 48px;
 }
+
 @media (min-width: 768px) {
   :root {
     --font-body-small: 16px;
@@ -138,6 +166,8 @@ html {
     --font-body-reg-med: 24px;
     --font-body-medium: 28px;
     --font-body-large: 32px;
+    --font-body-x-large: 36px;
+    --font-body-xx-large: 48px;
     --font-sm: 18px;
     --font-med: 22px;
     --font-h6: 20px;
@@ -148,6 +178,7 @@ html {
     --font-h1: 82px;
   }
 }
+
 @media (min-width: 1280px) {
   :root {
     --font-body-small: 18px;
@@ -155,6 +186,8 @@ html {
     --font-body-reg-med: 28px;
     --font-body-medium: 32px;
     --font-body-large: 36px;
+    --font-body-x-large: 48px;
+    --font-body-xx-large: 64px;
     --font-sm: 20px;
     --font-med: 24px;
     --font-h6: 32px;
@@ -177,20 +210,32 @@ body {
 body {
   font-size: var(--font-body-regular);
 }
+
 .body-text-small {
   font-size: var(--font-body-small);
 }
+
 .body-text-regular {
   font-size: var(--font-body-regular);
 }
+
 .body-text-reg-med {
   font-size: var(--font-body-reg-med);
 }
+
 .body-text-medium {
   font-size: var(--font-body-medium);
 }
+
 .body-text-large {
   font-size: var(--font-body-large);
+}
+
+.body-text-x-large {
+  font-size: var(--font-body-x-large);
+}
+.body-text-xx-large {
+  font-size: var(--font-body-xx-large);
 }
 
 .body-links-regular {
@@ -200,10 +245,21 @@ body {
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
 }
 
+.body-text-futura-bold {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: "futura-pt-bold", "Trebuchet MS", sans-serif;
+}
+
 a {
   cursor: pointer; /* Keeps the hand icon when hovering (optional) */
   color: inherit; /* Makes the link the same color as the surrounding text */
   text-decoration: none; /* Removes the underline */
+}
+
+.inline-link {
+  text-decoration: underline;
 }
 
 .fa-solid {
