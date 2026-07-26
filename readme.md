@@ -1,8 +1,8 @@
 # Introduction
 
-The purpose of the website is to transform the existing Canberra Modern (CM) website (stated as ‘awful’ by their own admission) (https://canberramodern.com) into an ‘engaging and visually appealing’ website for people with an interest in mid-century modern architecture and design.
+The purpose of the website is to transform the existing [Canberra Modern](https://canberramodern.com) (CM) website (stated as ‘awful’ by their own admission) into an ‘engaging and visually appealing’ website for people with an interest in mid-century modern architecture and design.
 
-The redesigned website (https://robertmair.github.io/my-web-project/index.html) uses ‘user-centered design’ (UCD) principles and techniques to provide a modern, easy to navigate, high quality website that is visually appealing, easy to navigate, and uses technically and historically accurate content.
+The redesigned website ([GitHub Repository](https://github.com/RobertMair/my-web-project/) and [Website](https://robertmair.github.io/my-web-project/index.html)) uses ‘user-centered design’ (UCD) principles and techniques to provide a modern, easy to navigate, high quality website that is visually appealing, easy to navigate, and uses technically and historically accurate content.
 
 The aim of this reflection is to identify insight into the development process and recognise things I did well or could have done better.
 
@@ -43,6 +43,16 @@ Based on this project, I would like to improve my knowledge of Flexbox and Grid,
 Regarding images, the original website had little ‘branding’, just a logo based on the Canberra Olympic Pool diving board (Canberra Olympic Pool, n.d.). To improve brand identity, I abstracted the diving board into a modern flat design retaining only key details. The updated logo is also used for the new website’s ‘favicon’.
 
 Overall, I enjoyed the creative process and increasing knowledge of the design and technical aspects of developing websites and would like to do more in the future.
+
+# GenAI Acknowledgement Statement
+
+I have used the following Generative Artificial Intelligence (GenAI) tools/services in the preparation of this assessment:
+
+- GenAI service name and version: ChatGPT 5.5
+- Link to the GenAI service: [\[ChatGPT 5.5\]](https://chatgpt.com/)
+- Ways this GenAI service was used: ChatGPT was used to create the More About Canberra content on the [About](https://robertmair.github.io/my-web-project/about.html) page, and the brief narrative about each building on the 'cards' on the [Architecture](https://robertmair.github.io/my-web-project/architecture.html) page.
+
+I conﬁrm that I have not used GenAI in the preparation of this assessment for any purpose other than what I have acknowledged above and I have cited and referenced any GenAI content in my assessment submission, applying the relevant referencing style. I understand that providing false or misleading information in this GenAI Acknowledgement Statement may constitute a breach of the University of Canberra (Student Conduct) Rules 2023.
 
 # References
 
