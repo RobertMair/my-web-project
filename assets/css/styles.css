@@ -485,11 +485,6 @@ h6 {
   font-family: "futura-pt", "Trebuchet MS", sans-serif;
 }
 
-#to-top-button:hover {
-  background-color: rgba(var(--white));
-  color: rgba(var(--red));
-}
-
 /* Class added to trigger fade-in */
 .to-top-button.fade-in {
   animation: fadeIn 1s forwards;
